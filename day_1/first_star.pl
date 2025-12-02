@@ -18,5 +18,3 @@ while ($input =~ /(L|R)(\d+)/g) {
 }
 
 print $count_zeroes, "\n";
-
-
