@@ -14,7 +14,6 @@ $input =~ /S/;
 my $start_pos = $-[0];
 
 my $height = scalar @grid;
-my $already_hit = {};
 my $total = 1;
 my $beams = { $start_pos => 1 };
 for(my $y = 1; $y < scalar @grid - 1; $y++) {
