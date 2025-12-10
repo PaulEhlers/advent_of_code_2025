@@ -75,4 +75,3 @@ sub equal_array {
     return 1;
 }
 
-#print Dumper \@machines;

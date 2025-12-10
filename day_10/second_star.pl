@@ -87,6 +87,3 @@ foreach my $machine (@machines) {
 }
 
 print "$total \n";
-
-
-#print Dumper \@machines;
